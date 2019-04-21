@@ -9,5 +9,5 @@ compile-shell: compile-builder
 	docker run -ti --rm -v $(shell pwd):/go/src/webserver whoami-builder /bin/bash
 
 build: compile
-	docker build -t hypriot/rpi-whoami .
+	docker build -t sridharangopal/rpi-whoami .
 
